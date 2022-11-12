@@ -126,6 +126,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
             this.ClientSize = new System.Drawing.Size(1023, 619);
+            this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblPlayerTalk);
             this.Controls.Add(this.lblFriendTalk);
@@ -134,6 +135,8 @@
             this.Controls.Add(this.lblPlayer);
             this.Controls.Add(this.pnPlayer);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmChat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Phone";

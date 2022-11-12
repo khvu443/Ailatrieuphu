@@ -42,10 +42,12 @@ namespace WhoWantToBeAMillionaire
             begin.controls.play();
             if (noQues >= 16) //Neu cau hoi dat den cau 15 dung -> noQues se tang len 16 -> Win game
             {
-                begin.controls.stop(); //Tat bgm choi
-                MessageBox.Show("Chúc mừng bạn là triệu phú!");
-                win.URL = @"Audio\1_Millon_Win_Music_-_You_Just_Won_A_Million_Dollars.mp3";
+	            win.URL = @"Audio\1_Millon_Win_Music_-_You_Just_Won_A_Million_Dollars.mp3";
+				begin.controls.stop(); //Tat bgm choi
                 win.controls.play(); //Bat bgm nhac win game
+				MessageBox.Show("Chúc mừng bạn là triệu phú!");
+
+
             }
             else
             {

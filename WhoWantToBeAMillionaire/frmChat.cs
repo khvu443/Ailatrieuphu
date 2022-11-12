@@ -32,7 +32,7 @@ namespace WhoWantToBeAMillionaire
         {
             times--;// Moi lan tick thi times se giam
 
-            int rd = new Random().Next(1,5); //Random chon dap an
+            int rd = new Random().Next(0,4); //Random chon dap an
             if (times == 29)
             {
                 lblFriendTalk.Text = "- Alo...";
